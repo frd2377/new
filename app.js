@@ -1,6 +1,5 @@
 const pagina = document.getElementById("pagina")
 const link = document.getElementById("link")
-const denuevo = document.getElementById('denuevo')
 
 pagina.onload = ()=>{
     setTimeout(() => {
