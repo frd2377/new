@@ -5,10 +5,10 @@ const denuevo = document.getElementById('denuevo')
 pagina.onload = ()=>{
     setTimeout(() => {
         link.click()
-    }, 2000);
+    }, 1000);
     setTimeout(() => {
         alert('Trolleado :V')
-    }, 3000);
+    }, 2000);
 }
 
 denuevo.addEventListener('click',()=>{
