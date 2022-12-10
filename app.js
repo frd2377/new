@@ -1,11 +1,7 @@
-const pagina = document.getElementById("pagina")
-const link = document.getElementById("link")
+const boton = document.getElementById('boton')
 
-pagina.onload = ()=>{
-    setTimeout(() => {
-        link.click()
-    }, 2000);
+boton.addEventListener('click',()=>{
     setTimeout(() => {
         alert('Trolleado :V')
-    }, 3000);
-}
+    }, 2000);
+})
